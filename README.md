@@ -1,5 +1,11 @@
 # Vivero
 
+# User and pass
+
+### User:vivero
+### Pass: vivero123
+
+
 ## Presentación 
 ### Mi nombre es Pablo Manuel Vanella. Tengo 27 años y soy Ingeniero Agrónomo.
 
@@ -15,3 +21,4 @@
 ### - Registrarse: Permite registrarse como user de la pagina, sin embargo no le da caracteristica de staff (esto se podría controlar desde el admin)
 ### - Iniciar sesión: permite iniciar la sesión.
 ### - Cerrar sesión: permite cerrar la sesión. 
+
