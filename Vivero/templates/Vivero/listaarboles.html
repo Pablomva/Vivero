@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Árboles </h1>
+    <ul>
+
+        <a href="{% url 'New' %}"> Crear </a>
+
+        {% for arboles in object_list %}
+
+        <li>
+
+            <p>Nombre: {{arboles.nombre_comun}}</p>
+
+            <p>
+
+                <a href="{% url 'Detail' arboles.id %}"> Ver </a>
+                <a href="{% url 'Edit'   arboles.id %}"> Editar </a>
+                <a href="{% url 'Delete' arboles.id %}"> Borrar </a>
+
+
+
+            </p>
+
+        </li>
+
+        {% endfor %}
+
+
+    </ul>
+
+</body>
+</html>
